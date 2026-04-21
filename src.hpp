@@ -92,7 +92,6 @@ protected:
             p2 = line_end2;
             if (*p2 == '\n') p2++;
         }
-        // Handle trailing newlines or remaining empty lines
         while (*p1 == '\n' || *p1 == ' ') p1++;
         while (*p2 == '\n' || *p2 == ' ') p2++;
 
